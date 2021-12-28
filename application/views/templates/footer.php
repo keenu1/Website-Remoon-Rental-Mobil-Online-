@@ -2,7 +2,7 @@
    <footer class="sticky-footer bg-white">
        <div class="container my-auto">
            <div class="copyright text-center my-auto">
-               <span>Copyright &copy; Group 2 Remoon 2020</span>
+               <span>Copyright &copy; Group 2 Remoon 2021</span>
            </div>
        </div>
    </footer>
@@ -40,13 +40,13 @@
 
    <!-- Bootstrap core JavaScript-->
    <script src="<?= base_url('sb-admin-2/') ?>/vendor/jquery/jquery.min.js"></script>
-	<script src="<?= base_url('sb-admin-2/') ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="<?= base_url('sb-admin-2/') ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
-	<script src="<?= base_url('sb-admin-2/') ?>/js/sb-admin-2.min.js"></script>
+   <script src="<?= base_url('sb-admin-2/') ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="<?= base_url('sb-admin-2/') ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
+   <script src="<?= base_url('sb-admin-2/') ?>/js/sb-admin-2.min.js"></script>
 
-	<script src="<?= base_url('sb-admin-2/') ?>/vendor/datatables/jquery.dataTables.min.js"></script>
-  	<script src="<?= base_url('sb-admin-2/') ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
-	<script src="<?= base_url('sb-admin-2/') ?>/js/demo/datatables-demo.js"></script>
+   <script src="<?= base_url('sb-admin-2/') ?>/vendor/datatables/jquery.dataTables.min.js"></script>
+   <script src="<?= base_url('sb-admin-2/') ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+   <script src="<?= base_url('sb-admin-2/') ?>/js/demo/datatables-demo.js"></script>
 
    </body>
 

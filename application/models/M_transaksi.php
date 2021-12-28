@@ -74,9 +74,12 @@ class M_transaksi extends CI_model
         $this->db->join('tbl_mobil', 'tbl_mobil.id = tbl_transaksi.id_mobil');
         $this->db->join('user', 'user.id = tbl_transaksi.id_user');
         $this->db->where('id_user', $user_id);
+
         if ($id != null) {
             $this->db->where('id_user', $id);
         }
+
+        $this->db->order_by('tbl_transaksi.id_transaksi', 'DESC');
         $query = $this->db->get()->result_array();
         return $query;
     }
