@@ -23,26 +23,26 @@
 								<th>Jaminan</th>
 								<th>Total</th>
 								<th>Jenis bayar</th>
-                                <th>Aksi</th>
+								<th>Aksi</th>
 							</tr>
 						</thead>
 						<tbody>
-					<?php foreach ($row as $detail) : ?>
-							<tr>
-								<td><?= $detail['name'] ?></td>
-								<td><?= $detail['nama'] ?></td>
-								<td><?= $detail['lama_sewa'] ?></td>
-								<td><?= $detail['tanggal_ambil'] ?></td>
-								<td><?= $detail['jaminan'] ?></td>
-								<?php $hasil = $detail['harga']*$detail['lama_sewa'] ?>
-								<td>Rp. <?= $hasil ?></td>
-								<td><?= $detail['jenis_bayar'] ?></td>
-                                <td>
-								<?= anchor('Pesanan/detail/'.$detail['id_transaksi'], '<div class="btn btn-warning btn-sm">Details</div>')?>
-					            <?= anchor('Pesanan/hapus/'.$detail['id_transaksi'], '<div class="btn btn-danger btn-sm">Hapus</div>') ?>
-                                </td>
-					  		</tr>
-					<?php endforeach; ?>
+							<?php foreach ($row as $detail) : ?>
+								<tr>
+									<td><?= $detail['name'] ?></td>
+									<td><?= $detail['nama'] ?></td>
+									<td><?= $detail['lama_sewa'] ?></td>
+									<td><?= $detail['tanggal_ambil'] ?></td>
+									<td><?= $detail['jaminan'] ?></td>
+									<?php $hasil = $detail['harga'] * $detail['lama_sewa'] ?>
+									<td>Rp. <?= $hasil ?></td>
+									<td><?= $detail['jenis_bayar'] ?></td>
+									<td>
+										<?= anchor('Pesanan/detail/' . $detail['id_transaksi'], '<div class="btn btn-warning btn-sm">Details</div>') ?>
+										<?= anchor('Pesanan/hapus/' . $detail['id_transaksi'], '<div class="btn btn-danger btn-sm" style="margin-top:5px;">Hapus</div>') ?>
+									</td>
+								</tr>
+							<?php endforeach; ?>
 						</tbody>
 					</table>
 					<div class="align text-center">
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 		</div>
-		<br>	
+		<br>
 	</div>
 </div>
 </div>

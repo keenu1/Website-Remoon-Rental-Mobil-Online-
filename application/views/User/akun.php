@@ -1,11 +1,11 @@
-<div class="col-sm-8 offset-2">
+<div class="col-sm">
 	<div class="card shadow">
 		<div class="card-header">
 			<h6 class="m-0 font-weight-bold text-success"><?= $title ?></h6>
 		</div>
 		<div class="card-body">
 
-			<table class="table table-bordered" id="dataTable" cellspacing="0">
+			<table class="table table-bordered" id="dataTable" width="" cellspacing="0">
 				<thead>
 					<tr>
 						<th>No</th>
